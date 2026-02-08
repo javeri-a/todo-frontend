@@ -71,7 +71,7 @@ export default function HomePage() {
                     </Button>
                   </Link>
                 ) : (
-                  <Link href="/signup">
+                  <Link href="/tasks">
                     <Button className="w-full sm:w-auto flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-lg text-white bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-blue-700 hover:to-indigo-800 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
                       Get Started Free
                       <FiArrowRight className="ml-2" />
